@@ -1,0 +1,42 @@
+.banner-hero {
+    height: auto;
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+
+    img {
+        height: auto;
+        max-width: none;
+        width: 100%;
+    }
+
+    &.owl-carousel {
+        .owl-nav button {
+            &.owl-prev {
+                left: 30px;
+            }
+
+            &.owl-next {
+                right: 30px;
+            }
+        }
+
+        .owl-dots {
+            bottom: 30px;
+        }
+    }
+
+    &.desktop {
+        display: none;
+    }
+
+    @media (min-width: 768px) {
+        &.mobile {
+            display: none;
+        }
+
+        &.desktop {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+.preloader {
+    background-image: linear-gradient(145deg, #00b4c6 0%, #0088e8 100%);
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+
+    .jumper {
+        bottom: 0;
+        display: block;
+        height: 50px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 50px;
+
+        > div {
+            -webkit-animation-fill-mode: both;
+            -webkit-animation: jumper 1s 0s linear infinite;
+            animation-fill-mode: both;
+            animation: jumper 1s 0s linear infinite;
+            background-color: #fff;
+            border-radius: 100%;
+            height: 10px;
+            height: 50px;
+            opacity: 0;
+            position: absolute;
+            width: 10px;
+            width: 50px;
+
+            &:nth-child(2) {
+                -webkit-animation-delay: 0.33333s;
+                animation-delay: 0.33333s;
+            }
+
+            &:nth-child(3) {
+                -webkit-animation-delay: 0.66666s;
+                animation-delay: 0.66666s;
+            }
+        }
+    }
+}
+
+@-webkit-keyframes jumper {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+@keyframes jumper {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    5% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
