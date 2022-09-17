@@ -1,0 +1,21 @@
+{
+  "name": "evoluir-site",
+  "version": "1.0.0",
+  "description": "Site institucional do colégio Evoluir & Crescer",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp default"
+  },
+  "author": "Gustavo Santana",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "sass": "^1.54.5"
+  }
+}
