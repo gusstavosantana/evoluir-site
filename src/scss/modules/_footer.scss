@@ -1,57 +1,57 @@
 footer {
-    background-color: #fff;
-    padding: 60px 0px;
+  background-color: #fff;
+  padding: 60px 0px;
 
-    .social {
-        overflow: hidden;
-        text-align: right;
+  .social {
+    overflow: hidden;
+    text-align: right;
 
-        li {
-            display: inline-block;
-            margin: 0px 5px;
+    li {
+      display: inline-block;
+      margin: 0px 5px;
 
-            a {
-                -moz-transition: all 0.3s ease 0s;
-                -o-transition: all 0.3s ease 0s;
-                -webkit-transition: all 0.3s ease 0s;
-                background-color: #00b4c6;
-                border-radius: 5px;
-                color: #fff;
-                display: inline-block;
-                font-size: 16px;
-                height: 40px;
-                line-height: 40px;
-                text-align: center;
-                transition: all 0.3s ease 0s;
-                width: 40px;
+      a {
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        -webkit-transition: all 0.3s ease 0s;
+        background-color: #009399;
+        border-radius: 5px;
+        color: #fff;
+        display: inline-block;
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        transition: all 0.3s ease 0s;
+        width: 40px;
 
-                &:hover {
-                    background-color: #0088e8;
-                    color: #fff;
-                }
-            }
+        &:hover {
+          background-color: #0088e8;
+          color: #fff;
         }
+      }
     }
+  }
 
-    .copyright {
-        color: #4a4a4a;
-        font-size: 15px;
-        font-weight: 400;
-        letter-spacing: 0.88px;
-        margin-top: 10px;
-        text-transform: capitalize;
-    }
+  .copyright {
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.88px;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
 }
 
 @media (max-width: 991px) {
-    footer {
-        .copyright {
-            text-align: center;
-        }
-
-        .social {
-            margin-top: 15px;
-            text-align: center;
-        }
+  footer {
+    .copyright {
+      text-align: center;
     }
+
+    .social {
+      margin-top: 15px;
+      text-align: center;
+    }
+  }
 }

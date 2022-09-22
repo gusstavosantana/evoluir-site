@@ -1,71 +1,96 @@
 .about {
-    padding: 120px 0px;
-    border-bottom: 1px solid #eee;
+  padding: 120px 0px;
 
-    .right-text {
-        align-self: center;
+  .right-text {
+    align-self: center;
 
-        p {
-            margin-bottom: 40px;
-        }
+    p {
+      margin-bottom: 40px;
     }
+
+    .title-piaget {
+      margin: 0;
+      padding: 0;
+    }
+
+    .description {
+      margin-bottom: 20px;
+    }
+
+    .text-piaget {
+      margin-bottom: 30px;
+    }
+
+    ul .description-piaget {
+      margin-top: 20px;
+      line-height: 30px;
+
+      li {
+        list-style: disc;
+      }
+    }
+  }
 }
 
 @media (max-width: 765px) {
-    .about {
-        padding: 20px 0px 120px 0px;
-    }
+  .about {
+    padding: 20px 0px 120px 0px;
+  }
 }
 
 .about2 {
-    padding: 120px 0px;
+  padding: 0px 0px 60px 0px;
 
-    .right-image {
-        align-self: center;
-    }
+  .left-text {
+    margin-top: 70px;
+  }
+
+  .right-image {
+    align-self: flex-start;
+  }
 }
 
 .about h5,
 .about2 h5 {
-    font-size: 26px;
-    font-weight: 700;
-    color: #1e1e1e;
-    line-height: 40px;
-    margin-bottom: 25px;
-    letter-spacing: 0.5px;
+  font-size: 26px;
+  font-weight: 700;
+  color: #1e1e1e;
+  line-height: 40px;
+  margin-bottom: 25px;
+  letter-spacing: 0.5px;
 }
 
 .about p {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.about2 {
+  p {
     margin-bottom: 30px;
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.5px;
-}
+  }
 
-.about2 {
-    p {
-        margin-bottom: 30px;
-        font-size: 16px;
-        line-height: 30px;
-        letter-spacing: 0.5px;
+  ul li {
+    img {
+      display: inline;
+      float: left;
     }
 
-    ul li {
-        img {
-            display: inline;
-            float: left;
-        }
+    .text {
+      margin-left: 80px;
 
-        .text {
-            margin-left: 80px;
-
-            h6 {
-                padding-top: 12px;
-                font-size: 21px;
-                font-weight: 500;
-                color: #1e1e1e;
-                margin-bottom: 20px;
-            }
-        }
+      h6 {
+        padding-top: 12px;
+        font-size: 21px;
+        font-weight: 500;
+        color: #1e1e1e;
+        margin-bottom: 20px;
+      }
     }
+  }
 }

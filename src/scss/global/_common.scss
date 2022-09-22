@@ -1,106 +1,106 @@
 html,
 body {
-    background: #fff;
-    font-family: "Roboto", sans-serif;
+  background: #f8faff;
+  font-family: "Roboto", sans-serif;
 }
 
 ::selection,
 ::-moz-selection {
-    background: #ff589e;
-    color: #fff;
+  background: #ff589e;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
-    html,
-    body {
-        overflow-x: hidden;
-    }
+  html,
+  body {
+    overflow-x: hidden;
+  }
 
-    .mobile-top-fix {
-        margin-bottom: 0px;
-        margin-top: 30px;
-    }
+  .mobile-top-fix {
+    margin-bottom: 0px;
+    margin-top: 30px;
+  }
 
-    .mobile-bottom-fix {
-        margin-bottom: 30px;
-    }
+  .mobile-bottom-fix {
+    margin-bottom: 30px;
+  }
 
-    .mobile-bottom-fix-big {
-        margin-bottom: 60px;
-    }
+  .mobile-bottom-fix-big {
+    margin-bottom: 60px;
+  }
 }
 
 a {
-    &.main-button-slider {
-        -moz-transition: all 0.3s ease 0s;
-        -o-transition: all 0.3s ease 0s;
-        -webkit-transition: all 0.3s ease 0s;
-        background-color: #f55858;
-        border-radius: 20px;
-        color: #fff;
-        font-size: 13px;
-        letter-spacing: 0.25px;
-        padding: 12px 20px;
-        text-transform: uppercase;
-        transition: all 0.3s ease 0s;
-
-        &:hover {
-            background-color: #0088e8;
-        }
-    }
-
-    &.main-button {
-        -moz-transition: all 0.3s ease 0s;
-        -o-transition: all 0.3s ease 0s;
-        -webkit-transition: all 0.3s ease 0s;
-        background-color: #00b4c6;
-        border-radius: 20px;
-        color: #fff;
-        font-size: 13px;
-        letter-spacing: 0.25px;
-        padding: 12px 20px;
-        text-transform: uppercase;
-        transition: all 0.3s ease 0s;
-
-        &:hover {
-            background-color: #0088e8;
-        }
-    }
-}
-
-button.main-button {
+  &.main-button-slider {
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     -webkit-transition: all 0.3s ease 0s;
-    background-color: #f55858;
+    background-color: #009399;
     border-radius: 20px;
-    border: none;
     color: #fff;
-    cursor: pointer;
     font-size: 13px;
     letter-spacing: 0.25px;
-    outline: none;
-    padding: 10px 20px;
+    padding: 12px 20px;
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
 
     &:hover {
-        background-color: #0088e8;
+      background-color: #ffd20f;
     }
+  }
+
+  &.main-button {
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    background-color: #009399;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 0.25px;
+    padding: 12px 20px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+
+    &:hover {
+      background-color: #ffd20f;
+    }
+  }
+}
+
+button.main-button {
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  background-color: #016266;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 13px;
+  letter-spacing: 0.25px;
+  outline: none;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+
+  &:hover {
+    background-color: #ffd20f;
+  }
 }
 
 .section-heading {
-    h2 {
-        color: #232323;
-        font-size: 48px;
-        font-weight: 300;
-        margin-bottom: 20px;
-        text-align: center;
-    }
+  h2 {
+    color: #232323;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-align: center;
+  }
 
-    p {
-        color: #777;
-        font-size: 17px;
-        text-align: center;
-    }
+  p {
+    color: #777;
+    font-size: 17px;
+    text-align: center;
+  }
 }
