@@ -41,6 +41,23 @@ footer {
     margin-top: 10px;
     text-transform: capitalize;
   }
+
+  .do-with {
+    display: flex;
+    align-items: center;
+    color: #4a4a4a;
+    font-size: 15px;
+    font-weight: 400;
+
+    > span {
+      margin: 0 5px;
+    }
+
+    > img {
+      height: 40px;
+      margin-left: 5px;
+    }
+  }
 }
 
 @media (max-width: 991px) {
