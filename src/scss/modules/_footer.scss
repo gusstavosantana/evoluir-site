@@ -66,6 +66,14 @@ footer {
       text-align: center;
     }
 
+    .do-with {
+      justify-content: center;
+
+      > span {
+        margin: 0 2px;
+      }
+    }
+
     .social {
       margin-top: 15px;
       text-align: center;
