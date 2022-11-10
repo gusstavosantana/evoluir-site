@@ -1,0 +1,67 @@
+.gallery {
+  margin-bottom: 120px;
+
+  > .container {
+    > .section-projects {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      grid-template-columns: repeat(3, 1fr);
+
+      > .section-projects--photos {
+        display: flex;
+        align-items: center;
+
+        > .section-projects--photo {
+          > .section-projects--photoarea {
+            margin: 10px;
+            height: 260px;
+            width: 347px;
+            display: flex;
+            justify-content: center;
+
+            .section-projects--photoinfo {
+              display: none;
+            }
+
+            &:hover {
+              > .section-projects--photoinfo {
+                position: absolute;
+                background-color: rgba(0, 0, 0, 0.5);
+                width: inherit;
+                height: inherit;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                flex-direction: column;
+                cursor: pointer;
+
+                > h5 {
+                  font-size: 20px;
+                  font-weight: 600;
+                }
+              }
+            }
+
+            > img {
+              width: 950;
+              height: inherit;
+            }
+          }
+        }
+      }
+
+      @media screen and (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+
+        > .section-projects--photos {
+          justify-content: center;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        grid-template-columns: none;
+      }
+    }
+  }
+}
